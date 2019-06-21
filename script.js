@@ -23,6 +23,6 @@ window.onload = function () {
     if (mobile) {
         opening.innerHTML = 'Not yet available on mobile'
     } else {
-        console.log('working fine')
+        console.log('Hey :-)')
     }
 }
