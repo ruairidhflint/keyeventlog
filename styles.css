@@ -119,4 +119,8 @@ a {
     text-decoration: none;
 }
 
+#my-input {
+    visibility: hidden;
+}
+
 
