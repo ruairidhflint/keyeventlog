@@ -97,12 +97,26 @@ body {
     background:white;   
     position: absolute;
     bottom:0;
+    right: 1;
+    left: 1;
     display: block;
-    transition: 0.4s
+    transition: 0.4s;
+    color: #0F2027;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .add-height {
-    height: 60px;
+    height: 50px;
     transition: 0.4s;
-};
+}
+
+a {
+    color: #2C5364;
+    text-decoration: none;
+}
+
 
