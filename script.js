@@ -21,11 +21,8 @@ function openNav() {
 window.onload = function () {
     var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
     if (mobile) {
-        alert("Visit this on a Computer for Better View");
+        opening.innerHTML = 'Not yet available on mobile'
     } else {
-
+        console.log('working fine')
     }
 }
-
-const textbox = document.getElementById('my-input');
-    textbox.select();
